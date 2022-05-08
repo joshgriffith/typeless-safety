@@ -1,4 +1,4 @@
-![Architecture](/design.png)
+![Architecture](https://github.com/joshgriffith/typeless-safety/blob/main/architecture.png)
 
 To emulate the benefits of type safety:
  - Impact areas must always be discernable.
