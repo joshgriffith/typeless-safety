@@ -1,3 +1,5 @@
+![Architecture](/design.png)
+
 To emulate the benefits of type safety:
  - Impact areas must always be discernable.
  - Compile-time validation must be able to validate each module's bindings.
@@ -10,6 +12,3 @@ Modules define their dependencies in an 'index.js' manifest, along with conventi
 Even without type inference, it's very easy to determine the impact area of a change, and address it through a single remapping.
 
 A test / linter can perform validation against each module to validate that their bindings are compatible.
-
-
-![Architecture](design.png)
